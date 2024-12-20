@@ -1,0 +1,126 @@
+
+// @import url('https://webfontworld.github.io/tmoney/TmoneyRoundWind.css');
+
+@font-face {
+  font-family: 'TmoneyRoundWind';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+}
+
+:root{
+  --blue: #1E90FF;
+
+  --gray_9: #999;
+  // --main: #438ef2;  // 67,142,242
+  // --main_hover: #1371ef;
+  // // --main_hover: #2b80f0;
+  // --light_main: #dfecff; // rgb(223,236,255)
+  // --light_main_hover: #D3E4FC;
+
+
+  // --light_red: #FFD6D6;
+  // --red: #E40000;
+  // --light_peach: #FFDFC0;
+  // --peach: #EC6600;
+  // --light_yellow: #FFF1B1;
+  // --yellow: #F69200;  // rgb(246,146,0)
+  // --light_green: #DBF0E0;
+  // --green: #388A49;  // rgb(56,138,73)
+  // --light_blue: #DEE4F1;
+  // --blue: #0000e4;
+  // --extra_light_purple : #F8F9FF;
+  // --light_purple: #e3defe;
+  // --purple: #7164b4;
+  // --pink: #ED706B;
+
+  // // --light_purple: #EAECFF;
+  // // --purple: #B5A5FF;
+  
+  // 
+  // --gray_be: #bebebe;
+  // --gray_c: #ccc;
+  // --gray_e5: #e5e5e5;
+  // --gray_e: #eee;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'TmoneyRoundWind';
+  color: #222;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  // background-color: transparent;
+  // background-color: red;
+}
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--light_main_hover);
+  border-radius: 10px;
+}
+html, body, #root{ height: 100%; }
+body{
+  margin: 0;
+  background-color: #f8f8f8;
+}
+#root{
+  // padding-bottom: calc(env(safe-area-inset-bottom) + 15px);
+}
+
+p, h1, h5, h6, ul{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+
+ul{
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+input, button{
+  // outline-color: var(--main);
+}
+
+input{
+  padding: 0 10px;
+  // &::placeholder{
+  //   color: var(--gray_be);
+  // }
+}
+
+button{
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  // padding: 0;
+  // border: none;
+  // font-size: inherit;
+  // white-space: nowrap;
+  // display: block;
+  // &:not(:disabled){
+  //   cursor: pointer;
+  // }
+  // &:disabled{
+  // }
+}
+
+select{
+  width: 100%;
+  appearance: none;
+  // outline-color: var(--main);
+  cursor: pointer;
+}
+
+img{
+  display: block;
+  object-fit: cover;
+}
+
+label{
+  cursor: pointer;
+}
